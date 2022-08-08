@@ -1,5 +1,7 @@
 .site-footer {
   background-color: $main-mirage-blue;
+  background-image: url("../images/bitmap-circle.svg");
+  @include bg-img($bpcalc-x:685px,$bpcalc-y:-186px,$bsize: 780px);
   .footer-inner {
    @include flex-nav($justify:start);
    padding: 31px 0;
