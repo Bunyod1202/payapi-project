@@ -96,6 +96,9 @@ background-image: url("../images/bitmap-circle.svg");
    }
   .nav-list__link {
     color: $main-link-water-white;
+    &:hover {
+        opacity: 1;
+    }
   }
 }
 .site-header-active {

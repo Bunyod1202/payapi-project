@@ -1,81 +1,5 @@
-
 @charset "UTF-8";
-/* VARIABLES*/ /* FONTS */
-@font-face {
-  font-family: "Public";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/public-sans-v14-latin-regular.woff2") format("woff2"), url("../fonts/public-sans-v14-latin-regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Public";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/public-sans-v14-latin-700.woff2") format("woff2"), url("../fonts/public-sans-v14-latin-700.woff") format("woff");
-}
-@font-face {
-  font-family: "Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/dm-serif-display-v10-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v10-latin-regular.woff") format("woff");
-}
-/* GENERAL */
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-html {
-  height: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-img, svg {
-  display: block;
-  height: auto;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Public", "Arial", sans-serif;
-  background-color: #EDF3F8;
-}
-
-/* STICKY-FOOTER */
-.site-main {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-
 /* VARIABLES*/
-
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -613,11 +537,13 @@ body {
   .site-header .nav-list__link {
     color: #FBFCFE;
   }
+  .site-header .nav-list__link:hover {
+    opacity: 1;
+  }
   .site-header-active {
     position: absolute;
   }
 }
-
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -737,6 +663,10 @@ body {
     background-color: #1B262F;
     padding: 48px 27px 20px 24px;
     text-align: center;
+    background-image: url("../images/bitmap-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 47px) calc(50% - 372px);
+    background-size: 780px;
   }
   .site-header .close-btn {
     display: -webkit-box;
@@ -769,9 +699,22 @@ body {
   .site-header .nav-list__item:not(:last-child) {
     margin-right: 0px;
   }
+  .site-header .nav-list__link {
+    color: #FBFCFE;
+  }
+  .site-header .nav-list__link:hover {
+    opacity: 1;
+  }
+  .site-header-active {
+    position: absolute;
+  }
 }
 .site-footer {
   background-color: #1B262F;
+  background-image: url("../images/bitmap-circle.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 685px) calc(50% + 186px);
+  background-size: 780px;
 }
 .site-footer .footer-inner {
   display: -webkit-box;
@@ -825,6 +768,11 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+  .site-footer {
+    background-repeat: no-repeat;
+    background-position: calc(50% + 0px) calc(50% + 400px);
+    background-size: 780px;
+  }
   .site-footer .footer-inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1127,8 +1075,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
 
 .about-info__img {
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+  max-width: 1500px;
 }
 
 .about-info__list {
@@ -1186,16 +1133,12 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     text-align: center;
   }
 }
-.site-footer {
-  background-color: #1B262F;
-
 .hero {
   padding: 162px 0 75px 0;
   background-image: url("../images/bitmap-circle.svg");
   background-repeat: no-repeat;
   background-position: calc(50% + 522px) calc(50% - 173px);
   background-size: contain;
-
 }
 .hero .hero-inner {
   display: -webkit-box;
@@ -1713,20 +1656,6 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     text-align: center;
   }
 }
-/*
- _______       _            _     _          ______        _                 _ 
-(_______)     (_)       _  (_)   | |        (____  \      (_)               | |
- _______  ____ _  ___ _| |_ _  __| |_____    ____)  ) ____ _ _____ ____   __| |
-|  ___  |/ ___) |/___|_   _) |/ _  | ___ |  |  __  ( / ___) (____ |  _ \ / _  |
-| |   | | |   | |___ | | |_| ( (_| | ____|  | |__)  ) |   | / ___ | | | ( (_| |
-|_|   |_|_|   |_(___/   \__)_|\____|_____)  |______/|_|   |_\_____|_| |_|\____|
-
-Auteur: msii(msii.pro@gmail.com) 
-_modal.scss(Ɔ) 2022
-Description : Saisissez la description puis « Tab »
-Créé le :  lundi 8 août 2022, 10:33:16 
-Dernière modification : lundi 8 août 2022, 10:33:17
-*/
 .radey-start .rady-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1937,4 +1866,18 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     margin-right: 0px;
     margin-bottom: 31px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*
+ _______       _            _     _          ______        _                 _ 
+(_______)     (_)       _  (_)   | |        (____  \      (_)               | |
+ _______  ____ _  ___ _| |_ _  __| |_____    ____)  ) ____ _ _____ ____   __| |
+|  ___  |/ ___) |/___|_   _) |/ _  | ___ |  |  __  ( / ___) (____ |  _ \ / _  |
+| |   | | |   | |___ | | |_| ( (_| | ____|  | |__)  ) |   | / ___ | | | ( (_| |
+|_|   |_|_|   |_(___/   \__)_|\____|_____)  |______/|_|   |_\_____|_| |_|\____|
+
+Auteur: msii(msii.pro@gmail.com) 
+_modal.scss(Ɔ) 2022
+Description : Saisissez la description puis « Tab »
+Créé le :  lundi 8 août 2022, 10:33:16 
+Dernière modification : lundi 8 août 2022, 10:33:17
+*//*# sourceMappingURL=main.css.map */
