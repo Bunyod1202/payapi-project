@@ -497,6 +497,10 @@ body {
     background-color: #1B262F;
     padding: 48px 27px 20px 24px;
     text-align: center;
+    background-image: url("../images/bitmap-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 47px) calc(50% - 372px);
+    background-size: 780px;
   }
   .site-header .close-btn {
     display: -webkit-box;
@@ -531,6 +535,9 @@ body {
   }
   .site-header .nav-list__link {
     color: #FBFCFE;
+  }
+  .site-header-active {
+    position: absolute;
   }
 }
 .hero {
@@ -1231,6 +1238,11 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+  .site-footer {
+    background-repeat: no-repeat;
+    background-position: calc(50% + 0px) calc(50% + 400px);
+    background-size: 780px;
+  }
   .site-footer .footer-inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
