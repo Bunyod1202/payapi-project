@@ -369,6 +369,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Public", "Arial", sans-serif;
+  font-weight: 400;
   background-color: #EDF3F8;
 }
 
@@ -698,15 +699,6 @@ body {
   }
   .site-header .nav-list__item:not(:last-child) {
     margin-right: 0px;
-  }
-  .site-header .nav-list__link {
-    color: #FBFCFE;
-  }
-  .site-header .nav-list__link:hover {
-    opacity: 1;
-  }
-  .site-header-active {
-    position: absolute;
   }
 }
 .site-footer {
@@ -1656,6 +1648,20 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     text-align: center;
   }
 }
+/*
+ _______       _            _     _          ______        _                 _ 
+(_______)     (_)       _  (_)   | |        (____  \      (_)               | |
+ _______  ____ _  ___ _| |_ _  __| |_____    ____)  ) ____ _ _____ ____   __| |
+|  ___  |/ ___) |/___|_   _) |/ _  | ___ |  |  __  ( / ___) (____ |  _ \ / _  |
+| |   | | |   | |___ | | |_| ( (_| | ____|  | |__)  ) |   | / ___ | | | ( (_| |
+|_|   |_|_|   |_(___/   \__)_|\____|_____)  |______/|_|   |_\_____|_| |_|\____|
+
+Auteur: msii(msii.pro@gmail.com) 
+_modal.scss(Ɔ) 2022
+Description : Saisissez la description puis « Tab »
+Créé le :  lundi 8 août 2022, 10:33:16 
+Dernière modification : lundi 8 août 2022, 10:33:17
+*/
 .radey-start .rady-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;

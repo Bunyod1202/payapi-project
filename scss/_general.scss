@@ -28,7 +28,8 @@ a {
 }
 body{
   @include sticky-footer;
-  font-family: "Public", "Arial", sans-serif; 
+  font-family: "Public", "Arial", sans-serif;
+  font-weight: 400;
   background-color: 
   #EDF3F8;
 }
