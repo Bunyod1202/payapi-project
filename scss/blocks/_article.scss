@@ -1,9 +1,9 @@
 .radey-start {
-  .rady-start__inner {
+  .radey-start__inner {
     @include flex-nav;
     padding: 96px 0;
   }
-  .rady-start__title {
+  .radey-start__title {
     font-family: 'Display';
     font-weight: 400;
     font-size: 48px;
@@ -11,11 +11,11 @@
     letter-spacing: -0.369231px;
     color: $main-san-juan-blue;
   }
-  .rady-start__btn-group {
+  .radey-start__btn-group {
     width: 445px;
     position: relative;
   }
-  .rady-start__input {
+  .radey-start__input {
     width: 100%;
     background: #FBFCFE;
     box-shadow: 10px 10px 25px -10px #36536b40;
@@ -51,23 +51,23 @@
 }
 @include mediya-max(840px) {
   .radey-start {
-    .rady-start__inner {
+    .radey-start__inner {
       flex-direction: column;
       align-items: center;
     }
-    .rady-start__title {
+    .radey-start__title {
       margin-bottom: 40px;
     }
   }
 }
 @include mediya-max(480px) {
   .radey-start {
-    .rady-start__title {
+    .radey-start__title {
       font-weight: 400;
       font-size: 32px;
       line-height: 36px;
     }
-    .rady-start__btn-group {
+    .radey-start__btn-group {
       width: 100%;
     }
     .btn-pink {

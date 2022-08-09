@@ -166,9 +166,14 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+
 }
 .brand-list-item {
-    margin: 0 10px 45px 0;
+    margin: 0 auto 45px auto;
+    width: 146px;
+
 }
 
 
@@ -236,6 +241,7 @@ input {
     }
     .contact-brands {
         max-width: 541px;
+        margin-left: 50px;
     }
     .contact-brands-title-box {
         max-width: 445px;
@@ -257,6 +263,7 @@ input {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        max-width: 450px;
     }
     .brand-list-item {
         margin: 0 50px 50px 0;
@@ -276,7 +283,7 @@ input {
         margin: 0 0 54px 0;
         font-family: "DM Serif Display";
         font-weight: 400;
-        font-size: 48px;
+        font-size: 56px;
         line-height: 56px;
         text-align: start;
         letter-spacing: -0.369231px;

@@ -912,7 +912,7 @@ Description : Saisissez la description puis « Tab »
 Créé le :  lundi 8 août 2022, 10:33:16 
 Dernière modification : lundi 8 août 2022, 10:33:17
 */
-.radey-start .rady-start__inner {
+.radey-start .radey-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -924,7 +924,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
           align-items: center;
   padding: 96px 0;
 }
-.radey-start .rady-start__title {
+.radey-start .radey-start__title {
   font-family: "Display";
   font-weight: 400;
   font-size: 48px;
@@ -932,11 +932,11 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   letter-spacing: -0.369231px;
   color: #36536B;
 }
-.radey-start .rady-start__btn-group {
+.radey-start .radey-start__btn-group {
   width: 445px;
   position: relative;
 }
-.radey-start .rady-start__input {
+.radey-start .radey-start__input {
   width: 100%;
   background: #FBFCFE;
   -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
@@ -949,35 +949,35 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   line-height: 18px;
   color: #36536B;
 }
-.radey-start .rady-start__input::-webkit-input-placeholder {
+.radey-start .radey-start__input::-webkit-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-moz-placeholder {
+.radey-start .radey-start__input::-moz-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input:-ms-input-placeholder {
+.radey-start .radey-start__input:-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-ms-input-placeholder {
+.radey-start .radey-start__input::-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::placeholder {
+.radey-start .radey-start__input::placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
@@ -1002,7 +1002,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
 }
 
 @media only screen and (max-width: 840px) {
-  .radey-start .rady-start__inner {
+  .radey-start .radey-start__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1011,17 +1011,17 @@ Dernière modification : lundi 8 août 2022, 10:33:17
         -ms-flex-align: center;
             align-items: center;
   }
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     margin-bottom: 40px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
   }
-  .radey-start .rady-start__btn-group {
+  .radey-start .radey-start__btn-group {
     width: 100%;
   }
   .radey-start .btn-pink {
@@ -2095,7 +2095,7 @@ Description : Saisissez la description puis « Tab »
 Créé le :  lundi 8 août 2022, 10:33:16 
 Dernière modification : lundi 8 août 2022, 10:33:17
 */
-.radey-start .rady-start__inner {
+.radey-start .radey-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2107,7 +2107,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
           align-items: center;
   padding: 96px 0;
 }
-.radey-start .rady-start__title {
+.radey-start .radey-start__title {
   font-family: "Display";
   font-weight: 400;
   font-size: 48px;
@@ -2115,11 +2115,11 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   letter-spacing: -0.369231px;
   color: #36536B;
 }
-.radey-start .rady-start__btn-group {
+.radey-start .radey-start__btn-group {
   width: 445px;
   position: relative;
 }
-.radey-start .rady-start__input {
+.radey-start .radey-start__input {
   width: 100%;
   background: #FBFCFE;
   -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
@@ -2132,35 +2132,35 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   line-height: 18px;
   color: #36536B;
 }
-.radey-start .rady-start__input::-webkit-input-placeholder {
+.radey-start .radey-start__input::-webkit-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-moz-placeholder {
+.radey-start .radey-start__input::-moz-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input:-ms-input-placeholder {
+.radey-start .radey-start__input:-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-ms-input-placeholder {
+.radey-start .radey-start__input::-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::placeholder {
+.radey-start .radey-start__input::placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
@@ -2185,7 +2185,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
 }
 
 @media only screen and (max-width: 840px) {
-  .radey-start .rady-start__inner {
+  .radey-start .radey-start__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2194,17 +2194,17 @@ Dernière modification : lundi 8 août 2022, 10:33:17
         -ms-flex-align: center;
             align-items: center;
   }
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     margin-bottom: 40px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
   }
-  .radey-start .rady-start__btn-group {
+  .radey-start .radey-start__btn-group {
     width: 100%;
   }
   .radey-start .btn-pink {
@@ -2939,7 +2939,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     color: #36536B;
   }
 }
-.radey-start .rady-start__inner {
+.radey-start .radey-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2951,7 +2951,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
           align-items: center;
   padding: 96px 0;
 }
-.radey-start .rady-start__title {
+.radey-start .radey-start__title {
   font-family: "Display";
   font-weight: 400;
   font-size: 48px;
@@ -2959,11 +2959,11 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   letter-spacing: -0.369231px;
   color: #36536B;
 }
-.radey-start .rady-start__btn-group {
+.radey-start .radey-start__btn-group {
   width: 445px;
   position: relative;
 }
-.radey-start .rady-start__input {
+.radey-start .radey-start__input {
   width: 100%;
   background: #FBFCFE;
   -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
@@ -2976,35 +2976,35 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   line-height: 18px;
   color: #36536B;
 }
-.radey-start .rady-start__input::-webkit-input-placeholder {
+.radey-start .radey-start__input::-webkit-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-moz-placeholder {
+.radey-start .radey-start__input::-moz-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input:-ms-input-placeholder {
+.radey-start .radey-start__input:-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-ms-input-placeholder {
+.radey-start .radey-start__input::-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::placeholder {
+.radey-start .radey-start__input::placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
@@ -3029,7 +3029,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
 }
 
 @media only screen and (max-width: 840px) {
-  .radey-start .rady-start__inner {
+  .radey-start .radey-start__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3038,17 +3038,17 @@ Dernière modification : lundi 8 août 2022, 10:33:17
         -ms-flex-align: center;
             align-items: center;
   }
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     margin-bottom: 40px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
   }
-  .radey-start .rady-start__btn-group {
+  .radey-start .radey-start__btn-group {
     width: 100%;
   }
   .radey-start .btn-pink {
@@ -3198,6 +3198,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   padding-left: 20px;
 }
 
+/*Header*/
 .site-header {
   padding: 40px 0;
   position: absolute;
@@ -3254,6 +3255,9 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   color: #36536B;
   opacity: 0.7;
 }
+.site-header .nav-list__link:hover {
+  opacity: 1;
+}
 .site-header .btn-pink {
   border-radius: 24px;
   background-color: #BA4270;
@@ -3264,6 +3268,9 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   line-height: 18px;
   letter-spacing: -0.115385px;
   color: #FBFCFE;
+}
+.site-header .btn-pink:hover {
+  opacity: 0.8;
 }
 
 .btn-meny {
@@ -3297,6 +3304,42 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     background-repeat: no-repeat;
     background-position: calc(50% - 47px) calc(50% - 372px);
     background-size: 780px;
+    -webkit-animation-name: menu;
+            animation-name: menu;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  @-webkit-keyframes menu {
+    0% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    5% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+  @keyframes menu {
+    0% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    5% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
   }
   .site-header .close-btn {
     display: -webkit-box;
@@ -3339,6 +3382,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     position: absolute;
   }
 }
+/*Footer*/
 .site-footer {
   background-color: #1B262F;
   background-image: url("../images/bitmap-circle.svg");
@@ -3380,6 +3424,9 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   color: #FBFCFE;
   opacity: 0.7;
 }
+.site-footer .nav-list__link:hover {
+  opacity: 1;
+}
 .site-footer .icon-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3395,6 +3442,9 @@ Dernière modification : lundi 8 août 2022, 10:33:17
 }
 .site-footer .icon-list__link {
   display: block;
+}
+.site-footer .icon-list__link:hover svg path {
+  fill: #DA6D97;
 }
 
 @media only screen and (max-width: 700px) {
@@ -3434,7 +3484,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     margin-bottom: 31px;
   }
 }
-.radey-start .rady-start__inner {
+.radey-start .radey-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3446,7 +3496,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
           align-items: center;
   padding: 96px 0;
 }
-.radey-start .rady-start__title {
+.radey-start .radey-start__title {
   font-family: "Display";
   font-weight: 400;
   font-size: 48px;
@@ -3454,11 +3504,11 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   letter-spacing: -0.369231px;
   color: #36536B;
 }
-.radey-start .rady-start__btn-group {
+.radey-start .radey-start__btn-group {
   width: 445px;
   position: relative;
 }
-.radey-start .rady-start__input {
+.radey-start .radey-start__input {
   width: 100%;
   background: #FBFCFE;
   -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
@@ -3471,35 +3521,35 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   line-height: 18px;
   color: #36536B;
 }
-.radey-start .rady-start__input::-webkit-input-placeholder {
+.radey-start .radey-start__input::-webkit-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-moz-placeholder {
+.radey-start .radey-start__input::-moz-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input:-ms-input-placeholder {
+.radey-start .radey-start__input:-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::-ms-input-placeholder {
+.radey-start .radey-start__input::-ms-input-placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   color: #36536B;
   opacity: 0.5;
 }
-.radey-start .rady-start__input::placeholder {
+.radey-start .radey-start__input::placeholder {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
@@ -3519,9 +3569,12 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   letter-spacing: -0.115385px;
   color: #FBFCFE;
 }
+.radey-start .btn-pink:hover {
+  opacity: 0.8;
+}
 
 @media only screen and (max-width: 840px) {
-  .radey-start .rady-start__inner {
+  .radey-start .radey-start__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3530,17 +3583,17 @@ Dernière modification : lundi 8 août 2022, 10:33:17
         -ms-flex-align: center;
             align-items: center;
   }
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     margin-bottom: 40px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .radey-start .rady-start__title {
+  .radey-start .radey-start__title {
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
   }
-  .radey-start .rady-start__btn-group {
+  .radey-start .radey-start__btn-group {
     width: 100%;
   }
   .radey-start .btn-pink {
@@ -3841,10 +3894,13 @@ input:checked ~ .contact-checkbox {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .brand-list-item {
-  margin: 0 10px 45px 0;
+  margin: 0 auto 45px auto;
+  width: 146px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -3924,6 +3980,7 @@ input:checked ~ .contact-checkbox {
   }
   .contact-brands {
     max-width: 541px;
+    margin-left: 50px;
   }
   .contact-brands-title-box {
     max-width: 445px;
@@ -3950,6 +4007,7 @@ input:checked ~ .contact-checkbox {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    max-width: 450px;
   }
   .brand-list-item {
     margin: 0 50px 50px 0;
@@ -3967,7 +4025,7 @@ input:checked ~ .contact-checkbox {
     margin: 0 0 54px 0;
     font-family: "DM Serif Display";
     font-weight: 400;
-    font-size: 48px;
+    font-size: 56px;
     line-height: 56px;
     text-align: start;
     letter-spacing: -0.369231px;
