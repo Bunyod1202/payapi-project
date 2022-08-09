@@ -5,11 +5,11 @@
   }
   .rady-start__title {
     font-family: 'Display';
-font-weight: 400;
-font-size: 48px;
-line-height: 56px;
-letter-spacing: -0.369231px;
-color: $main-san-juan-blue;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: $main-san-juan-blue;
   }
   .rady-start__btn-group {
     width: 445px;
@@ -18,20 +18,20 @@ color: $main-san-juan-blue;
   .rady-start__input {
     width: 100%;
     background: #FBFCFE;
-box-shadow: 10px 10px 25px -10px #36536b40;
-border-radius: 24px;
-padding: 16px 100px 14px 27px;
-border: none;
-font-weight: 700;
-font-size: 15px;
-line-height: 18px;
-color: $main-san-juan-blue;
+    box-shadow: 10px 10px 25px -10px #36536b40;
+    border-radius: 24px;
+    padding: 16px 100px 14px 27px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: $main-san-juan-blue;
     &::placeholder {
       font-weight: 700;
-font-size: 15px;
-line-height: 18px;
-color: $main-san-juan-blue;
-opacity: 0.5;
+      font-size: 15px;
+      line-height: 18px;
+      color: $main-san-juan-blue;
+      opacity: 0.5;
     }
   }
   .btn-pink {
@@ -40,10 +40,13 @@ opacity: 0.5;
     right: 0;
     top: 0;
     font-weight: 700;
-font-size: 15px;
-line-height: 18px;
-letter-spacing: -0.115385px;
-color: $main-link-water-white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: $main-link-water-white;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 @include mediya-max(840px) {
@@ -59,19 +62,19 @@ color: $main-link-water-white;
 }
 @include mediya-max(480px) {
   .radey-start {
-  .rady-start__title {
-    font-weight: 400;
-font-size: 32px;
-line-height: 36px;
-  }
-  .rady-start__btn-group {
-    width: 100%;
-  }
-  .btn-pink {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    margin-top: 16px;
-  }
+    .rady-start__title {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 36px;
+    }
+    .rady-start__btn-group {
+      width: 100%;
+    }
+    .btn-pink {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+    }
   }
 }

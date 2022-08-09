@@ -6,22 +6,19 @@
 @import "article";
 
 
-
 .about-body
 {
   background-image: url(../../images/Bitmap-circle.svg);
   background-repeat: no-repeat;
   background-size: 780px;
-  background-position: calc(50% + 500px) calc(50% - 500px);
+  background-position: calc(50% + 550px) calc(50% - 550px);
 }
-
 .about-hero
 {
   padding: 170px 0 0 0;
 }
-
 .about-hero__title {
-  max-width: 730px;
+  max-width: 663px;
   margin: 0 0 51px 0;
   font-family: 'Display';
   font-weight: 400;
@@ -36,11 +33,9 @@
 .about-hero__item {
   display: flex;
 }
-
 .about-hero__item:first-child {
   margin-bottom: 56px;
 }
-
 .about-hero__item-title {
   width: 255px;
   margin-right: 32px;
@@ -62,20 +57,27 @@
   color: #6C8294;
 }
 
-
+@media only screen and (max-width:1499px)
+{
+.about-body {
+  background-position: calc(50% + 550px) calc(50% - 400px);
+}
+}
 @media only screen and (max-width:900px)
 {
+  .about-body
+  {
+    background-position: calc(50% + 400px) calc(50% - 400px);
+  }
   .about-hero__title {
     max-width: 730px;
     text-align: center;
     margin: 0 60px 54px;
     font-size: 48px;
   }
-
   .about-hero__item-title {
     min-width: 255px;
   }
-
   .about-hero__item-text {
     max-width: 635px;
   }
@@ -87,7 +89,7 @@
   {
     padding: 75px 0 0 0;
   }
-
+  
   .about-hero__title {
     text-align: center;
     margin: 0;
@@ -97,36 +99,35 @@
     text-align: center;
     letter-spacing: -0.246154px;
   }
-
   .about-hero__item {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .about-hero__item-title {
     margin: 0;
     margin-bottom: 16px;
     min-width: 255px;
     text-align: center;
   }
-
   .about-hero__item-text {
     margin: 0;
     max-width: 635px;
     text-align: center;
   }
-
 }
 
 
 @media only screen and (max-width:500px)
 {
+  .about-body
+  {
+    background-position: calc(50% + 300px) calc(50% - 400px);
+  }
   .about-hero
   {
     padding: 48px 0 76px;
   }
-
   .about-hero__title {
     text-align: center;
     margin-bottom: 40px;
@@ -134,21 +135,17 @@
     line-height: 36px;
     letter-spacing: -0.246154px;
   }
-
   .about-hero__item-title {
     max-width: 255px;
     font-size: 24px;
     line-height: 32px;
   }
-
   .about-hero__item-text {
     min-width: 0;
     font-size: 15px;
     line-height: 28px;
   }
 }
-
-
 .about-info
 {
   position: relative;
@@ -157,14 +154,11 @@
   background-repeat: no-repeat;
   background-position: calc(50% - 900px) calc(0% - 0px);
 }
-
 .about-info__img
 {
   width: 100%;
-  max-width: 1500px;
- 
+  max-width: 1550px;
 }
-
 .about-info__list {
   margin: 72px 0;
   width: 100%;
@@ -196,10 +190,8 @@
   color: #BA4270;
 }
 
-
 @media only screen and (max-width:650px)
 {
-
   .about-info__list {
     margin: 48px 0;
     width: 100%;
@@ -212,7 +204,6 @@
   .about-info__item-text {
     text-align: center;
   }
-
 }
 
 
