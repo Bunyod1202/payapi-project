@@ -1,4 +1,4 @@
-
+/*Header*/
 .site-header {
   padding: 40px 0;
   position: absolute;
@@ -29,7 +29,10 @@ font-size: 15px;
 line-height: 18px;
 color: $main-san-juan-blue;
 opacity: 0.7;
-  }
+&:hover {
+  opacity: 1;
+}
+}
   .btn-pink {
     @include button;
     margin-left: auto;
@@ -38,6 +41,9 @@ font-size: 15px;
 line-height: 18px;
 letter-spacing: -0.115385px;
 color:$main-link-water-white;
+&:hover {
+  opacity: 0.8;
+}
   }
 }
 .btn-meny {
@@ -59,9 +65,7 @@ color:$main-link-water-white;
     display: block;
     position: fixed;
     top: 0;
-
     right: 0;
-   
     width: 80%;
     height: 100vh;
     background-color: $main-mirage-blue;
@@ -69,7 +73,22 @@ padding: 48px 27px 20px 24px;
 text-align: center;
 background-image: url("../images/bitmap-circle.svg");
 @include bg-img($bpcalc-x:-47px,$bpcalc-y:372px,$bsize: 780px);
-  
+animation-name:menu;
+animation-duration: 0.5s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+  }
+  @keyframes menu {
+  0% {
+transform: translateX(-100%);
+  } 
+  5% {
+    
+    transform: translateX(100%);
+  } 
+  100% {
+    transform: translateX(0%);
+  }
   }
   .close-btn {
     display: flex;

@@ -1,10 +1,11 @@
+/*Footer*/
 .site-footer {
   background-color: $main-mirage-blue;
   background-image: url("../images/bitmap-circle.svg");
   @include bg-img($bpcalc-x:685px,$bpcalc-y:-186px,$bsize: 780px);
   .footer-inner {
-   @include flex-nav($justify:start);
-   padding: 31px 0;
+    @include flex-nav($justify:start);
+    padding: 31px 0;
   }
   .nav-list {
     @include flex-nav;
@@ -19,6 +20,9 @@
     line-height: 18px;
     color: $main-link-water-white;
     opacity: 0.7;
+    &:hover {
+      opacity: 1;
+    } 
   }
   .icon-list {
     @include flex-nav;
@@ -27,32 +31,35 @@
   }
   .icon-list__link {
     display: block;
+    &:hover svg path {
+      fill: $main-charm-pink;
+    }
   }
 }
 @include mediya-max(700px){
   .site-footer {
     @include bg-img($bpcalc-x:0px,$bpcalc-y:-400px,$bsize: 780px);
-  .footer-inner {
-   flex-direction: column;
-   align-items: center;
-  } 
-  .nav-list {
-  margin: 44px 0 39px 0;
+    .footer-inner {
+      flex-direction: column;
+      align-items: center;
+    } 
+    .nav-list {
+      margin: 44px 0 39px 0;
+    }
+    .icon-list { 
+      margin: 0;
+    }
   }
-  .icon-list { 
-  margin: 0;
-  }
-}
 }
 @include mediya-max(480px) {
-.site-footer {
-  .nav-list {
-    flex-direction: column;
-    align-items: center;
+  .site-footer {
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
     }
     .nav-list__item:not(:last-child) {
       margin-right: 0px;
       margin-bottom: 31px;
     }
-}
+  }
 }
