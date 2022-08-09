@@ -1603,8 +1603,17 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     width: 536px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: 0px;
+    margin: 0 auto;
     margin-bottom: 67px;
+  }
+  .intro .brand-list-item:nth-child(4) {
+    margin-bottom: 36px;
+  }
+  .intro .brand-list-item:nth-child(5) {
+    margin-bottom: 36px;
+  }
+  .intro .brand-list-item:nth-child(6) {
+    margin-bottom: 36px;
   }
   .intro .intro-content {
     text-align: center;
@@ -2406,6 +2415,10 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   letter-spacing: -0.115385px;
   text-decoration: none;
   color: #36536B;
+}
+.price-s1__button:hover {
+  background-color: #36536B;
+  color: #FBFCFE;
 }
 
 .price-s1__items2 {

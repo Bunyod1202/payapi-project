@@ -183,6 +183,10 @@
     letter-spacing: -0.115385px;
     text-decoration: none;
     color: #36536B;    
+    &:hover {
+        background-color: #36536B;
+        color: #FBFCFE;  
+    }
 }
 .price-s1__items2 {
     margin-bottom: 8px;
