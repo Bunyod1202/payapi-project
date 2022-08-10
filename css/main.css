@@ -1035,7 +1035,7 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   background-image: url(../../images/Bitmap-circle.svg);
   background-repeat: no-repeat;
   background-size: 780px;
-  background-position: calc(50% + 550px) calc(50% - 550px);
+  background-position: calc(50% + 550px) calc(0% - 550px);
 }
 
 .about-hero {
@@ -1181,9 +1181,14 @@ Dernière modification : lundi 8 août 2022, 10:33:17
   background-position: calc(50% - 900px) calc(0% - 0px);
 }
 
-.about-info__img {
+.about-info__img-desktop {
   width: 100%;
+  margin: 0 auto;
   max-width: 1550px;
+}
+
+.about-info__img-mobile {
+  display: none;
 }
 
 .about-info__list {
@@ -1223,6 +1228,14 @@ Dernière modification : lundi 8 août 2022, 10:33:17
 }
 
 @media only screen and (max-width: 650px) {
+  .about-info__img-desktop {
+    display: none;
+  }
+  .about-info__img-mobile {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
   .about-info__list {
     margin: 48px 0;
     width: 100%;
@@ -1233,6 +1246,16 @@ Dernière modification : lundi 8 août 2022, 10:33:17
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .about-info__item:nth-child(1) {
+    border-bottom: 1px solid transparent;
+  }
+  .about-info__item:nth-child(2) {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+  .about-info__item:nth-child(3) {
+    border-top: 1px solid transparent;
   }
   .about-info__item-title {
     text-align: center;
