@@ -197,6 +197,14 @@
   color: #BA4270;
 }
 
+@media only screen and (max-width:500px)
+{
+  .about-info
+  {
+    padding-top: 0;
+  }
+}
+
 @media only screen and (max-width:650px)
 {
   .about-info__img-desktop
